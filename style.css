@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #e0e3eb;
+}
+
+.container{
+    position: relative;
+    max-width: 300px;
+    width: 100%;
+    padding: 10px 20px 20px;
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0 5px 10px rgb(0, 0, 0,0.05);
+    margin-left: 200px;
+}
+
+.display{
+    height: 80px;
+    width: 100%;
+    outline: none ;
+    border: none;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.buttons{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.buttons button{
+     width: 50px ;
+     height: 50px;
+     border-radius: 10px 0px;
+     border: none;
+}
+
+.buttons>button:nth-child(1){
+    color: blue;
+    font-size: 20px;
+}
+.buttons>button:nth-child(2){
+    color: blue;
+    font-size: 20px;
+}
+
+.buttons>button:nth-child(3){
+    color: blue;
+    font-size: 20px;
+}
+
+.buttons>button:nth-child(4){
+    color: blue;
+    font-size: 25px;
+}
+.buttons>button:nth-child(8){
+    color: blue;
+    font-size: 25px;
+}
+.buttons>button:nth-child(12){
+    color: blue;
+    font-size: 25px;
+}
+.buttons>button:nth-child(16){
+    color: blue;
+    font-size: 25px;
+}
+
+.buttons>button:nth-child(20){
+    color: blue;
+    font-size: 25px;
+}
